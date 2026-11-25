@@ -1,4 +1,4 @@
-# signupbouncer-com
+# SignupBouncer
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-signupbouncer-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://signupbouncer.com/
+SignupBouncer provides a service to block disposable email addresses and fake sign‑ups for web applications. By offering a REST API and integrations with Supabase, Ory, Keycloak, Next.js, Firebase and other platforms, it helps developers protect their signup flows from abuse, reduce fraud, and maintain clean user data. The service includes a free tier with 1,000 checks per month and paid plans for higher volumes, with detailed reason codes and configurable enforcement modes.
+
+**Areas:** Company
+
+## SignupBouncer on APIs.io
+
+Everything profiled for SignupBouncer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/signupbouncer-com/](https://apis.io/providers/signupbouncer-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [SignupBouncer Apps API](https://apis.io/apis/signupbouncer-com/signupbouncer-com-apps-api/) — The Apps API from SignupBouncer — 1 operation(s) for apps.
+- [SignupBouncer Check API](https://apis.io/apis/signupbouncer-com/signupbouncer-com-check-api/) — The Check API from SignupBouncer — 1 operation(s) for check.
+- [SignupBouncer Confirm API](https://apis.io/apis/signupbouncer-com/signupbouncer-com-confirm-api/) — The Confirm API from SignupBouncer — 2 operation(s) for confirm.
+- [SignupBouncer Hook API](https://apis.io/apis/signupbouncer-com/signupbouncer-com-hook-api/) — The Hook API from SignupBouncer — 1 operation(s) for hook.
+- [SignupBouncer Hooks API](https://apis.io/apis/signupbouncer-com/signupbouncer-com-hooks-api/) — The Hooks API from SignupBouncer — 1 operation(s) for hooks.
+- [SignupBouncer Status.json API](https://apis.io/apis/signupbouncer-com/signupbouncer-com-status-json-api/) — The Status.json API from SignupBouncer — 1 operation(s) for status.json.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SignupBouncer Agentic Access](https://apis.io/agentic-access/signupbouncer-com/signupbouncer-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CheckRequest](https://apis.io/schemas/signupbouncer-com/signupbouncer-com-check-request/)
+- [CheckResult](https://apis.io/schemas/signupbouncer-com/signupbouncer-com-check-result/)
+- [ConfirmResult](https://apis.io/schemas/signupbouncer-com/signupbouncer-com-confirm-result/)
+- [Rules](https://apis.io/schemas/signupbouncer-com/signupbouncer-com-rules/)
+- [RulesChange](https://apis.io/schemas/signupbouncer-com/signupbouncer-com-rules-change/)
+- [RulesChanged](https://apis.io/schemas/signupbouncer-com/signupbouncer-com-rules-changed/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Signupbouncer Com Context](https://apis.io/jsonld/signupbouncer-com/signupbouncer-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SignupBouncer API Rules](https://apis.io/rules/signupbouncer-com/signupbouncer-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SignupBouncer Authentication](https://apis.io/security/signupbouncer-com/signupbouncer-com-authentication/)
+- [SignupBouncer Domain Security](https://apis.io/security/signupbouncer-com/signupbouncer-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SignupBouncer Plans Pricing](https://apis.io/plans/signupbouncer-com/signupbouncer-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://signupbouncer.com/)
+- [Documentation](https://signupbouncer.com/docs)
+- [API reference](https://signupbouncer.com/openapi.json)
+- [Pricing](https://signupbouncer.com/pricing)
+- [Sign up](https://signupbouncer.com/signup)
+- [Terms of service](https://signupbouncer.com/terms)
+- [Privacy policy](https://signupbouncer.com/privacy)
+- [GitHub](https://github.com/signupbouncer)
+- [Status](https://signupbouncer.com/status)
+
+## API Evangelist rating
+
+**Kin Score 51.7** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 58.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 37.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/signupbouncer-com/](https://apis.io/providers/signupbouncer-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SignupBouncer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/signupbouncer-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
